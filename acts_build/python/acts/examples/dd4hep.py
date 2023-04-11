@@ -1,1 +1,0 @@
-/home/sasa/work/acts-kiwaku/Examples/Python/python/acts/examples/dd4hep.py
