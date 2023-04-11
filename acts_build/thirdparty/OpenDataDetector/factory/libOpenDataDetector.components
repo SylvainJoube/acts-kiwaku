@@ -1,0 +1,5 @@
+v2::libOpenDataDetector.so:ODDCylinder
+v2::libOpenDataDetector.so:ODDPixelBarrel
+v2::libOpenDataDetector.so:ODDPixelEndcap
+v2::libOpenDataDetector.so:ODDStripBarrel
+v2::libOpenDataDetector.so:ODDStripEndcap

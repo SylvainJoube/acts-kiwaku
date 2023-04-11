@@ -1,0 +1,3 @@
+repository='https://github.com/acts-project/dfelibs.git'
+module=''
+tag='origin'

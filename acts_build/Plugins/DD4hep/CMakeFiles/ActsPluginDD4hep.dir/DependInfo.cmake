@@ -1,0 +1,42 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/sasa/work/acts-kiwaku/Plugins/DD4hep/src/ConvertDD4hepDetector.cpp" "/home/sasa/work/acts-kiwaku/acts_build/Plugins/DD4hep/CMakeFiles/ActsPluginDD4hep.dir/src/ConvertDD4hepDetector.cpp.o"
+  "/home/sasa/work/acts-kiwaku/Plugins/DD4hep/src/ConvertDD4hepMaterial.cpp" "/home/sasa/work/acts-kiwaku/acts_build/Plugins/DD4hep/CMakeFiles/ActsPluginDD4hep.dir/src/ConvertDD4hepMaterial.cpp.o"
+  "/home/sasa/work/acts-kiwaku/Plugins/DD4hep/src/DD4hepDetectorElement.cpp" "/home/sasa/work/acts-kiwaku/acts_build/Plugins/DD4hep/CMakeFiles/ActsPluginDD4hep.dir/src/DD4hepDetectorElement.cpp.o"
+  "/home/sasa/work/acts-kiwaku/Plugins/DD4hep/src/DD4hepLayerBuilder.cpp" "/home/sasa/work/acts-kiwaku/acts_build/Plugins/DD4hep/CMakeFiles/ActsPluginDD4hep.dir/src/DD4hepLayerBuilder.cpp.o"
+  "/home/sasa/work/acts-kiwaku/Plugins/DD4hep/src/DD4hepVolumeBuilder.cpp" "/home/sasa/work/acts-kiwaku/acts_build/Plugins/DD4hep/CMakeFiles/ActsPluginDD4hep.dir/src/DD4hepVolumeBuilder.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "ActsPluginDD4hep_EXPORTS"
+  "BOOST_ALL_NO_LIB"
+  "BOOST_SPIRIT_USE_PHOENIX_V3"
+  "DD4HEP_USE_XERCESC"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../Plugins/DD4hep/include"
+  "../Core/include"
+  "Core"
+  "../Plugins/TGeo/include"
+  "../Plugins/Identification/include"
+  "/usr/include/eigen3"
+  "/home/sasa/work/root_install/include"
+  "/home/sasa/work/DD4hep_build/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/sasa/work/acts-kiwaku/acts_build/Plugins/TGeo/CMakeFiles/ActsPluginTGeo.dir/DependInfo.cmake"
+  "/home/sasa/work/acts-kiwaku/acts_build/Core/CMakeFiles/ActsCore.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
