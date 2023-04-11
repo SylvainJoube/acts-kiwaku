@@ -126,9 +126,11 @@ ActsExamples::ProcessCode ActsExamples::DigitizationAlgorithm::execute(
 
   // Prepare output containers
   // need list here for stable addresses
+  // TODO: KWK
   IndexSourceLinkContainer sourceLinks;
   MeasurementContainer measurements;
   ClusterContainer clusters;
+  // KWK
   IndexMultimap<ActsFatras::Barcode> measurementParticlesMap;
   IndexMultimap<Index> measurementSimHitsMap;
   sourceLinks.reserve(simHits.size());
@@ -171,10 +173,12 @@ ActsExamples::ProcessCode ActsExamples::DigitizationAlgorithm::execute(
     // visitor so we do not need to lookup the variant object per-hit.
     std::visit(
         [&](const auto& digitizer) {
+          // TODO: KWK
           ModuleClusters moduleClusters(
               digitizer.geometric.segmentation, digitizer.geometric.indices,
               m_cfg.doMerge, m_cfg.mergeNsigma, m_cfg.mergeCommonCorner);
-
+          // KWK
+          
           for (auto h = moduleSimHits.begin(); h != moduleSimHits.end(); ++h) {
             const auto& simHit = *h;
             const auto simHitIdx = simHits.index_of(h);
