@@ -19,6 +19,8 @@
 #include "ActsExamples/Framework/WhiteBoard.hpp"
 #include "ActsFatras/Digitization/UncorrelatedHitSmearer.hpp"
 
+#include "ActsExamples/Digitization/s_text_file.hpp"
+
 #include <algorithm>
 #include <list>
 #include <stdexcept>
@@ -123,6 +125,10 @@ ActsExamples::ProcessCode ActsExamples::DigitizationAlgorithm::execute(
   // Retrieve input
   const auto& simHits = m_simContainerReadHandle(ctx);
   ACTS_DEBUG("Loaded " << simHits.size() << " sim hits");
+
+  text_file_w fw("/home/joube/tests_2023-04-04/text_file/coucou.txt");
+  fw << "Coucou de depuis clustering.";
+  fw.close();
 
   // Prepare output containers
   // need list here for stable addresses
