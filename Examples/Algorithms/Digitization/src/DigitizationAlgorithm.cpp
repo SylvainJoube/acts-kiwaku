@@ -227,10 +227,12 @@ ActsExamples::ProcessCode ActsExamples::DigitizationAlgorithm::execute(
                   "Parameter digitization did not yield a measurement.")
               continue;
             }
-
+            // TODO:KWK
             moduleClusters.add(std::move(dParameters), simHitIdx);
+            // KWK
           }
 
+          // TODO:KWK
           for (auto& [dParameters, simhits] :
                moduleClusters.digitizedParameters()) {
             // The measurement container is unordered and the index under which
@@ -257,6 +259,7 @@ ActsExamples::ProcessCode ActsExamples::DigitizationAlgorithm::execute(
                                                  measurementIdx, simHitIdx);
             }
           }
+          // KWK
         },
         *digitizerItr);
   }
